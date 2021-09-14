@@ -15,10 +15,9 @@
     display: flex;
 }
 .product > img{
-    max-height: 200px;
-    width:100%;
-    object-fit: contain;
-    margin-bottom: 15px;
+    max-height: 50%;
+    width: 50%;
+
 }
 .product > button{
     background-color: rgb(226, 134, 12);
@@ -35,3 +34,4 @@
     height: 100px;
     margin-bottom: 15px;
 }
+

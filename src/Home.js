@@ -9,7 +9,7 @@ function Home() {
                     src= "https://images-na.ssl-images-amazon.com/images/G/01/adlp/builder/BFF-V1-01-Hero-T-59d56e74-90ad-47d3-b893-5d1b6665011b._CB417386572_.jpg" 
                     alt=""
                 />
-
+           <div className="home_cards">
               <div className="home_row">
               
               <Product
@@ -75,6 +75,7 @@ function Home() {
               image="https://www.sony.com.tw/image/cf24b41374702061b74b577da50a329d?fmt=pjpeg&wid=1014&hei=396&bgcolor=F1F5F9&bgc=F1F5F9"
               rating ={4}/> 
               </div>
+        </div>
         </div>
     )
 }
