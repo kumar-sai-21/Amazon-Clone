@@ -10,19 +10,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20%;
+    max-width: 100%;
+    
 }
 
 .home_row{
     display: flex;
-    z-index: -1;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-bottom: 4vh;
+  
 }
 .homeImage{
     width: 100%;
     z-index: -1;
-    margin-bottom:  -150px;
+    
     mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0));
 
 }
@@ -31,23 +31,19 @@
 {
     .home_row{
         display: flex;
-        max-width: 80%;
+        max-width: 50%;
         flex-direction: column;
+        align-items: center;
     }
     .home_cards{
-        margin-top: 30%;
+       
     }
 }
 
 @media only screen and (max-width:550px){
     .home_row{
-        max-width: 50%;
+       
         font-size: 0.8rem;
     }
 }
-/* @media only screen and (max-width:550px){
-    .home_row{
-        max-width: 50%;
-        font-size: 0.8rem;
-    }
-} */
+
