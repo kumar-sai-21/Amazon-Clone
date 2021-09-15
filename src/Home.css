@@ -17,6 +17,7 @@
 .home_row{
     display: flex;
     margin-bottom: 4vh;
+    width: 100%;
   
 }
 .homeImage{
